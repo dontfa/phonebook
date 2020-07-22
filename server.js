@@ -1,3 +1,4 @@
+/*
 import http from 'http';
 
 export default (usersById) => http.createServer((request, response) => {
@@ -29,3 +30,9 @@ export default (usersById) => http.createServer((request, response) => {
 
   request.resume();
 });
+*/
+
+//export default (usersById) => console.log(usersById)
+//module.exports
+exports.makeServer = function(usersById) { console.log(usersById) }
+//exports.f = function() { return 123; };
